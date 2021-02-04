@@ -132,7 +132,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 func (m Model) View() string {
 	if !m.ready {
-		return "\n  Initalizing..."
+		return "\n  HI! Initalizing..."
 	}
 
 	return strings.Join(
